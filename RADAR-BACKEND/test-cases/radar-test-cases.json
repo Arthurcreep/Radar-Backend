@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Finance niche idea",
+        "input": {
+            "value": "budgeting app for freelancers",
+            "niche": "finance"
+        },
+        "expected": {
+            "allowedVerdicts": [
+                "needs validation"
+            ],
+            "allowedDecisions": [
+                "investigate"
+            ],
+            "shouldReject": false
+        }
+    },
+    {
+        "name": "Risky crypto idea",
+        "input": {
+            "value": "crypto wallet for beginners",
+            "niche": "crypto"
+        },
+        "expected": {
+            "allowedVerdicts": [
+                "avoid"
+            ],
+            "allowedDecisions": [
+                "no-go"
+            ],
+            "shouldReject": true
+        }
+    },
+    {
+        "name": "Overcrowded AI fitness idea",
+        "input": {
+            "value": "AI fitness coach",
+            "niche": "health"
+        },
+        "expected": {
+            "allowedVerdicts": [
+                "avoid",
+                "weak opportunity"
+            ],
+            "allowedDecisions": [
+                "no-go"
+            ],
+            "shouldReject": true
+        }
+    },
+    {
+        "name": "Health audience pain idea",
+        "input": {
+            "value": "sleep tracker for students",
+            "niche": "health"
+        },
+        "expected": {
+            "allowedVerdicts": [
+                "needs validation"
+            ],
+            "allowedDecisions": [
+                "investigate"
+            ],
+            "shouldReject": false
+        }
+    },
+    {
+        "name": "Productivity developer idea",
+        "input": {
+            "value": "project management tool for developers",
+            "niche": "productivity"
+        },
+        "expected": {
+            "allowedVerdicts": [
+                "weak opportunity",
+                "needs validation"
+            ],
+            "allowedDecisions": [
+                "no-go",
+                "investigate"
+            ],
+            "shouldReject": false
+        }
+    },
+    {
+        "name": "Education kids idea",
+        "input": {
+            "value": "language learning app for kids",
+            "niche": "education"
+        },
+        "expected": {
+            "allowedVerdicts": [
+                "weak opportunity",
+                "needs validation"
+            ],
+            "allowedDecisions": [
+                "no-go",
+                "investigate"
+            ],
+            "shouldReject": false
+        }
+    }
+]
